@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "tailwindcss-animated";
+
+@theme {
+  --color-darkblue: #100425;
+  --color-darksky: #5DFFFF; 
+  --color-slightly: #DC00D3;
+  --color-whitetext: #FAFAFA;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
