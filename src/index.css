@@ -6,6 +6,8 @@
   --color-darksky: #5DFFFF; 
   --color-slightly: #DC00D3;
   --color-whitetext: #FAFAFA;
+  --font-inter: "Inter", sans-serif;
+  --font-josefinsans: "Josefin Sans", sans-serif;
 }
 
 body {

@@ -31,9 +31,9 @@ export const Hero = () => {
     return () => clearTimeout(timeout);
   }, [text, isDeleting, index]);
   return (
-    <div className="flex items-center justify-between w-full mx-[9%] relative">
+    <div className="flex items-center justify-between w-full px-[9%] relative h-screen text-center md:text-start">
       <div>
-        <h1 className="text-white font-bold text-[80px] animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
+        <h1 className="text-white font-bold text-4xl lg:text-[80px] animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
           Yasmin Santana
         </h1>
 
@@ -50,13 +50,13 @@ export const Hero = () => {
               ],
             }}
             transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-            className="bg-gradient-to-r from-darksky via-slightly to-purple-500 bg-clip-text text-transparent text-5xl font-semibold"
+            className="bg-gradient-to-r from-darksky via-slightly to-purple-500 bg-clip-text text-transparent text-2xl md:text-5xl font-semibold"
           >
             {text}
           </motion.span>
         </div>
 
-        <p className="text-whitetext text-[18px] leading-8 mt-6 w-[45%]">
+        <p className="text-whitetext text-[18px] leading-8 mt-6 lg:w-[45%] font-inter">
           Desenvolvedora front-end com experiência em React, React Native e
           TypeScript, atuando em TI desde 2022. Iniciei como Analista de Suporte
           Técnico, destacando-me pela resolução de problemas complexos e
@@ -70,7 +70,7 @@ export const Hero = () => {
 
       <img
         src="/yasmin.png"
-        className="w-[620px] absolute bottom-0 right-0 animate-fade-up animate-duration-500 animate-delay-300 animate-ease-in"
+        className="w-[360px] md:w-[50vh] lg:w-[40vw] absolute self-center bottom-0 md:right-10 animate-fade-up animate-duration-500 animate-delay-300 animate-ease-in"
         alt=""
       />
     </div>
