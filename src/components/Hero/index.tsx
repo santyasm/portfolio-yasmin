@@ -70,7 +70,7 @@ export const Hero = () => {
 
       <img
         src="/yasmin.png"
-        className="w-[70vw] mx-auto md:mr-0 md:w-[60vw] lg:w-[40vw] lg:absolute lg:bottom-0 lg:right-10 h-auto animate-fade-up animate-duration-500 animate-delay-300 animate-ease-in"
+        className="w-[70vw] mt-10 mx-auto md:mr-0 md:w-[60vw] lg:w-[40vw] lg:absolute lg:bottom-0 lg:right-10 h-auto animate-fade-up animate-duration-500 animate-delay-300 animate-ease-in"
         alt=""
         data-blobity-tooltip="Hello Guys"
         data-blobity-invert="false"
