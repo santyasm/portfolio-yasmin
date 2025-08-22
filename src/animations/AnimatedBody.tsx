@@ -35,7 +35,8 @@ export default function AnimatedBody({ text, className }: AnimatedBodyProps) {
       transition: {
         delay: 0.3,
         duration: 1,
-        ease: [0.2, 0.65, 0.3, 0.9],
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        ease: [0.2, 0.65, 0.3, 0.9] as any,
       },
     },
   };
