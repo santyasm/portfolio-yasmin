@@ -32,7 +32,7 @@ export const Hero = () => {
   }, [text, isDeleting, index]);
   return (
     <div className="flex lg:flex-row flex-col w-full px-[9%] items-stretch min-h-screen h-auto justify-center pt-24">
-      <div className="text-center md:text-start md:mt-[22%] lg:mt-0 flex-1">
+      <div className="text-center md:text-start md:mt-[22%] lg:mt-0 flex-1 flex flex-col justify-center">
         <h1 className="text-white font-extrabold text-[70px] md:text-[70px] leading-[0.9em] lg:text-[100px] animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
           Yasmin Santana
         </h1>
@@ -56,22 +56,12 @@ export const Hero = () => {
           </motion.span>
         </div>
 
-        <p className="text-whitetext md:text-[18px] leading-8 mt-6 lg:w-[48%] font-inter w-[98%] animate-fade-left animate-duration-500 animate-delay-300 animate-ease-in">
-          Oi, eu sou Yasmin ✨ <br /> Sou desenvolvedora front-end/mobile e
-          adoro transformar ideias em experiências digitais que realmente façam
-          sentido para as pessoas. Minha jornada em TI começou em 2022, atuando
-          como suporte técnico, onde descobri minha paixão por resolver
-          problemas e entender profundamente como os sistemas funcionam. <br />{" "}
-          <br /> Em 2023, depois de muito estudo, projetos próprios e dedicação
-          constante, consegui minha transição para o desenvolvimento de
-          software. Hoje trabalho com React, React Native e TypeScript,
-          participando de todo o ciclo de desenvolvimento, da definição de
-          funcionalidades à entrega final. O que me motiva todos os dias é
-          aprender, criar soluções eficientes e construir produtos digitais que
-          impactem positivamente quem os utiliza. 🚀
+        <p className="text-whitetext md:text-[22px] leading-8 mt-6 lg:w-[48%] font-inter w-[98%] animate-fade-left animate-duration-500 animate-delay-300 animate-ease-in">
+          Front-End Developer | React & React Native 👩🏻‍💻
+          <br /> Apaixonada por criar produtos digitais de qualidade. 🚀
         </p>
 
-        <button className="mb-10 bg-gradient-to-tr cursor-pointer from-darksky via-[#848AD4] to-slightly rounded-full py-2 px-6 text-white font-semibold text-[18px] mt-10 animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
+        <button className="self-center md:self-start w-[120px] mb-10 bg-gradient-to-tr cursor-pointer from-darksky via-[#848AD4] to-slightly rounded-full py-2 px-6 text-white font-semibold text-[18px] mt-10 animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
           Contato
         </button>
       </div>

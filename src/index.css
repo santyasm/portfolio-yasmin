@@ -3,13 +3,17 @@
 
 @theme {
   --color-darkblue: #100425;
-  --color-darksky: #5DFFFF; 
-  --color-slightly: #DC00D3;
-  --color-whitetext: #FAFAFA;
+  --color-darksky: #5dffff;
+  --color-slightly: #dc00d3;
+  --color-whitetext: #fafafa;
   --font-inter: "Inter", sans-serif;
   --font-josefinsans: "Josefin Sans", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }

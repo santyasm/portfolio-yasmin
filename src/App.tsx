@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Home } from "./components/Home";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
+import { About } from "./components/About";
 
 function App() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -20,7 +21,12 @@ function App() {
       left: 0,
     });
   }, []);
-  return <Home />;
+  return (
+    <>
+    <Home />
+    <About />
+    </>
+  )
 }
 
 export default App;
