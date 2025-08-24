@@ -72,9 +72,9 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`mt-4 absolute text-white ${
+        className={`mt-4 absolute text-white md:max-w-[45%] ${
           !(id % 2 === 0)
-            ? "right-0 top-16 mr-0 ml-6 sm:top-24 sm:ml-10 md:right-0 md:ml-0 md:top-28 lg:right-0 lg:top-48 lg:mr-4"
+            ? "right-0 top-16 mr-0 ml-10 md:right-0 md:top-28 lg:right-0 lg:top-48 lg:mr-4"
             : "left-6 top-16 ml-0 sm:left-10 sm:top-24 md:mr-12 md:top-28 lg:top-44 lg:ml-4"
         } mb-6 sm:mb-10 md:mb-16 lg:mb-14`}
       >
@@ -89,10 +89,10 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-3 w-[85%] max-w-[300px] text-[14px] font-semibold text-[#95979D] sm:mt-4 sm:w-[90%] sm:max-w-[457px] sm:text-[16px]"
+            "mt-3 w-[85%] max-w-[300px] font-semibold text-[#95979D] sm:mt-4 text-[16px]"
           }
         />
-        <div className="mt-6 flex flex-wrap gap-2 sm:mt-9 sm:gap-4 max-w-[90%]">
+        <div className="mt-6 flex flex-wrap gap-2 sm:mt-9 sm:gap-4 max-w-[92%]">
           {technologies.map((tech, id) => (
             <AnimatedTitle
               text={tech}

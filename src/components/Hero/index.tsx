@@ -37,7 +37,7 @@ export const Hero = () => {
           Yasmin Santana
         </h1>
 
-        <div className="min-h-[40px] md:min-h-[62px] mt-6">
+        <div className="min-h-[44px] md:min-h-[62px] mt-6">
           <motion.span
             initial={{ textShadow: "0 0 5px rgba(106, 56, 194, 0.4)" }}
             animate={{

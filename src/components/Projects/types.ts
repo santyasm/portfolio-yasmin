@@ -5,7 +5,7 @@ export interface ProjectCardProps {
   technologies: string[];
   demo: string;
   github: string;
-  description: string;  
+  description: string;
 }
 
 export const projectList = [
@@ -17,18 +17,37 @@ export const projectList = [
     technologies: ["React Native", "Expo (Bare Workflow)", "Expo Router"],
     github: "https://github.com/santyasm/mtg-life-counter",
     demo: "https://github.com/santyasm/mtg-life-counter",
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
     banner: "/projects/mtg-life-counter.png",
   },
   {
     id: 1,
-    name: "MTG Life Counter",
+    name: "Weather App",
     description:
-      "Um aplicativo desenvolvido em React Native (Expo + Bare Workflow) para auxiliar jogadores de Magic: The Gathering a controlarem os pontos de vida durante suas partidas.",
-    technologies: ["React Native", "Expo (Bare Workflow)", "Expo Router"],
-    github: "https://github.com/santyasm/mtg-life-counter",
-    demo: "https://github.com/santyasm/mtg-life-counter",
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    banner: "/projects/mtg-life-counter.png",
+      "Aplicativo de previsão do tempo desenvolvido em React Native, que exibe informações meteorológicas atuais e previsão diária/semanal com base na localização do usuário.",
+    technologies: ["React Native", "Redux Toolkit", "React Navigation"],
+    github: "https://github.com/santyasm/weather",
+    demo: "https://github.com/santyasm/weather",
+    banner: "/projects/weather-app.png",
   },
+  {
+    id: 2,
+    name: "Video View App",
+    description:
+      "Um aplicativo desenvolvido em React Native para visualização de vídeos curtos no formato vertical. O app faz uso da API do Pexels para buscar e exibir os vídeos, com suporte a rolagem infinita, autoplay do vídeo atual e pausa automática dos demais.",
+    technologies: ["React Native"],
+    github: "https://github.com/santyasm/video-view",
+    demo: "https://github.com/santyasm/video-view",
+    banner: "/projects/video-view.png",
+  },
+  {
+    id: 3,
+    name: "Countdown Timer Animated",
+    description:
+      "Um aplicativo simples desenvolvido em React Native para praticar animações com o hook Animated.",
+    technologies: ["React Native"],
+    github: "https://github.com/santyasm/Countdown-Timer-Animation",
+    demo: "https://github.com/santyasm/Countdown-Timer-Animation",
+    banner: "/projects/countdown-rn.png",
+  },
+
 ];

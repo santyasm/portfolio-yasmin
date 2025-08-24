@@ -16,8 +16,6 @@ export default function AnimatedTitle({
   wordSpace,
   charSpace,
 }: AnimatedTitleProps) {
-  //   const text = "Animated Text"; // This would normally be passed into this component as a prop!
-
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
@@ -49,8 +47,7 @@ export default function AnimatedTitle({
       y: `0em`,
       transition: {
         duration: 1,
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        ease: [0.2, 0.65, 0.3, 0.9] as any,
+        ease: [0.2, 0.65, 0.3, 0.9] as never,
       },
     },
   };
@@ -78,7 +75,7 @@ export default function AnimatedTitle({
                   aria-hidden="true"
                   key={index}
                   variants={characterAnimation}
-                  className={`inline-block ${charSpace}`}
+                  className={`inline-block ${charSpace} ${className}`}
                 >
                   {character}
                 </motion.span>
