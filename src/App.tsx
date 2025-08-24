@@ -3,6 +3,7 @@ import { Home } from "./components/Home";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import { About } from "./components/About";
+import { Projects } from "./components/Projects";
 
 function App() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -25,6 +26,7 @@ function App() {
     <>
     <Home />
     <About />
+    <Projects />
     </>
   )
 }
