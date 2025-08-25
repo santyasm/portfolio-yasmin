@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { Projects } from "./components/Projects";
 import Footer from "./components/Footer";
 import { Contact } from "./components/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -26,13 +27,14 @@ function App() {
   }, []);
   return (
     <>
-    <Home />
-    <About />
-    <Projects />
-    <Contact />
-    <Footer />
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+      <Analytics />
     </>
-  )
+  );
 }
 
 export default App;
