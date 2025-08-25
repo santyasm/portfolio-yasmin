@@ -26,7 +26,7 @@ Este é o meu portfólio pessoal desenvolvido com React, Vite e Tailwind CSS. El
 Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/portfolio.git
+git clone https://github.com/santyasm/portfolio-yasmin.git
 cd portfolio
 ```
 
