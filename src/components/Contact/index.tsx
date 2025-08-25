@@ -15,7 +15,7 @@ export const Contact = () => {
         <AnimatedWords2
           title="ME MANDE UMA MENSAGEM"
           style={
-            "flex flex-wrap justify-center items-center max-w-[500px] font-extrabold uppercase leading-[0.9] text-[#e4ded7] text-[76px] sm:max-w-full md:flex-row md:justify-center md:items-center md:text-[80px] lg:text-[80px] xl:text-[100px] tracking-tighter text-center"
+            "flex flex-wrap justify-center items-center font-extrabold uppercase leading-[0.9] text-[#e4ded7] text-[17vw] md:flex-row md:justify-center md:items-center md:text-[80px] lg:text-[80px] xl:text-[100px] tracking-tighter"
           }
         />
 
