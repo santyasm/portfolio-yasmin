@@ -34,7 +34,7 @@ export const projectList = [
     name: "Video View App",
     description:
       "Um aplicativo desenvolvido em React Native para visualização de vídeos curtos no formato vertical. O app faz uso da API do Pexels para buscar e exibir os vídeos, com suporte a rolagem infinita, autoplay do vídeo atual e pausa automática dos demais.",
-    technologies: ["React Native",],
+    technologies: ["React Native"],
     github: "https://github.com/santyasm/video-view",
     demo: "https://github.com/santyasm/video-view",
     banner: "/projects/video-view.png",
@@ -49,5 +49,14 @@ export const projectList = [
     demo: "https://github.com/santyasm/Countdown-Timer-Animation",
     banner: "/projects/countdown-rn.png",
   },
-
+  {
+    id: 4,
+    name: "Ignite Shop",
+    description:
+      "Projeto desenvolvido durante a Maratona Ignite da Rocketseat com o objetivo de praticar conceitos de Next.js e integração com Stripe.",
+    technologies: ["Next.js", "Stripe", "Stitches"],
+    github: "https://github.com/santyasm/ignite-shop",
+    demo: "https://ignite-shop-ivory-beta.vercel.app/",
+    banner: "/projects/ignite-shop.png",
+  },
 ];
