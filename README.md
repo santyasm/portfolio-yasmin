@@ -2,6 +2,9 @@
 
 Este é o meu portfólio pessoal desenvolvido com React, Vite e Tailwind CSS. Ele apresenta meus projetos, habilidades e contato de forma interativa e moderna.
 
+---
+## [🔗 yasmin-portfolio](portfolio-yasmin-six.vercel.app)
+
 # ✨ Tecnologias utilizadas
 
 - [React](https://reactjs.org/) – Biblioteca para construção de interfaces.  
