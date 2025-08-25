@@ -61,9 +61,9 @@ export const Hero = () => {
           <br /> Apaixonada por criar produtos digitais de qualidade. 🚀
         </p>
 
-        <button className="self-center md:self-start w-[120px] mb-10 bg-gradient-to-tr cursor-pointer from-darksky via-[#848AD4] to-slightly rounded-full py-2 px-6 text-white font-semibold text-[18px] mt-10 animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
+        <a href="#contact" className="self-center md:self-start w-[120px] mb-10 bg-gradient-to-tr cursor-pointer from-darksky via-[#848AD4] to-slightly rounded-full py-2 px-6 text-white font-semibold text-[18px] mt-10 animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
           Contato
-        </button>
+        </a>
       </div>
 
       <img

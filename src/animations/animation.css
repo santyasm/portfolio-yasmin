@@ -1,0 +1,14 @@
+.heartbeat {
+  animation: beat 0.3s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.02);
+  }
+}
+
+.heartbeat:hover {
+  animation-play-state: paused;
+}

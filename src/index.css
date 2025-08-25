@@ -18,3 +18,7 @@ html {
 body {
   font-family: "Josefin Sans", sans-serif;
 }
+
+animate-heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
