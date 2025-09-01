@@ -1,0 +1,36 @@
+import { SkillCard, type SkillProps } from "./SkillCard";
+import { skills } from "./utils";
+import "../../animations/animation.css";
+
+export const SkillsCarousel = () => {
+  return (
+    <div className="relative overflow-hidden w-full h-[250px] flex items-center justify-center">
+      {/* container animado */}
+      <div className="animate absolute flex justify-center">
+        {/* primeira metade */}
+        <div className="mx-auto flex w-[50%] justify-around gap-2">
+          {skills.map((skill: SkillProps, index) => (
+            <SkillCard
+              key={index}
+              name={skill.name}
+              link={skill.link}
+              icon={skill.icon}
+            />
+          ))}
+        </div>
+
+        {/* segunda metade duplicada */}
+        <div className="mx-auto flex w-[50%] justify-around gap-2">
+          {skills.map((skill: SkillProps, index) => (
+            <SkillCard
+              key={`dup-${index}`}
+              name={skill.name}
+              link={skill.link}
+              icon={skill.icon}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
