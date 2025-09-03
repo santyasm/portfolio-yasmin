@@ -4,7 +4,7 @@ import { SkillsCarousel } from "../SkillCarousel";
 
 export const About = () => {
   return (
-    <div className="flex flex-col items-center min-h-screen h-auto py-10 justify-center relative">
+    <div className="flex flex-col items-center justify-center relative">
       <section
         className="flex flex-col items-center min-h-screen h-auto py-10 justify-center"
         id="about"
@@ -27,6 +27,7 @@ export const About = () => {
         Em 2023, depois de muito estudo, projetos próprios e dedicação constante, consegui minha transição para o desenvolvimento de software. Hoje trabalho com React, React Native e TypeScript, participando de todo o ciclo de desenvolvimento, da definição de funcionalidades à entrega final. O que me motiva todos os dias é aprender, criar soluções eficientes e construir produtos digitais que impactem positivamente quem os utiliza. 🚀`}
         />
       </section>
+
       <div className="flex w-full overflow-hidden justify-center items-center">
         <SkillsCarousel />
       </div>

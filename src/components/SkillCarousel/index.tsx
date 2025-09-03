@@ -5,9 +5,7 @@ import "../../animations/animation.css";
 export const SkillsCarousel = () => {
   return (
     <div className="relative overflow-hidden w-full h-[250px] flex items-center justify-center">
-      {/* container animado */}
-      <div className="animate absolute flex justify-center">
-        {/* primeira metade */}
+      <div className="animate absolute flex justify-center items-center">
         <div className="mx-auto flex w-[50%] justify-around gap-2">
           {skills.map((skill: SkillProps, index) => (
             <SkillCard
@@ -19,7 +17,6 @@ export const SkillsCarousel = () => {
           ))}
         </div>
 
-        {/* segunda metade duplicada */}
         <div className="mx-auto flex w-[50%] justify-around gap-2">
           {skills.map((skill: SkillProps, index) => (
             <SkillCard
