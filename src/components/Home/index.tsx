@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Hero } from "../Hero";
 import { Header } from "../Header";
+import ScrollToTopButton from "../shared/ScrollToTopButton";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
     >
       <Header />
       <Hero />
+      <ScrollToTopButton />
     </motion.section>
   );
 };
