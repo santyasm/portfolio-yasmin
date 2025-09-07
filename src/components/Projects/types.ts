@@ -11,6 +11,16 @@ export interface ProjectCardProps {
 export const projectList = [
   {
     id: 0,
+    name: "Cowork",
+    description:
+      "Sistema de gestão de coworking com reservas de salas e mesas, planos de assinatura e painel intuitivo em Laravel + React.",
+    technologies: ["Laravel", "React", "MySQL"],
+    github: "https://github.com/santyasm/cowork",
+    demo: "https://cowork-app-main.laravel.cloud/",
+    banner: "/projects/cowork.png",
+  },
+  {
+    id: 1,
     name: "MTG Life Counter",
     description:
       "Um aplicativo desenvolvido em React Native (Expo + Bare Workflow) para auxiliar jogadores de Magic: The Gathering a controlarem os pontos de vida durante suas partidas.",
@@ -20,7 +30,7 @@ export const projectList = [
     banner: "/projects/mtg-life-counter.png",
   },
   {
-    id: 1,
+    id: 2,
     name: "Weather App",
     description:
       "Aplicativo de previsão do tempo desenvolvido em React Native, que exibe informações meteorológicas atuais e previsão diária/semanal com base na localização do usuário.",
@@ -30,7 +40,7 @@ export const projectList = [
     banner: "/projects/weather-app.png",
   },
   {
-    id: 2,
+    id: 3,
     name: "Video View App",
     description:
       "Um aplicativo desenvolvido em React Native para visualização de vídeos curtos no formato vertical. O app faz uso da API do Pexels para buscar e exibir os vídeos, com suporte a rolagem infinita, autoplay do vídeo atual e pausa automática dos demais.",
@@ -40,7 +50,7 @@ export const projectList = [
     banner: "/projects/video-view.png",
   },
   {
-    id: 3,
+    id: 4,
     name: "Countdown Timer Animated",
     description:
       "Um aplicativo simples desenvolvido em React Native para praticar animações com o hook Animated.",
@@ -50,7 +60,7 @@ export const projectList = [
     banner: "/projects/countdown-rn.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "Ignite Shop",
     description:
       "Projeto desenvolvido durante a Maratona Ignite da Rocketseat com o objetivo de praticar conceitos de Next.js e integração com Stripe.",

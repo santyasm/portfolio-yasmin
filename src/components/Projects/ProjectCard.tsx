@@ -51,7 +51,7 @@ const ProjectCard = ({
         <a
           href={github}
           target="_blank"
-          className="rounded-full "
+          className="rounded-full"
           aria-label="Open GitHub Repository"
         >
           <FaGithub
