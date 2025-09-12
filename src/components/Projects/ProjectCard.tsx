@@ -32,7 +32,7 @@ const ProjectCard = ({
       <div
         className={`absolute bottom-0 ${
           id % 2 === 0 ? "right-0" : "left-0"
-        } w-[80%] md:w-[70%] lg:max-w-[49%]`}
+        } w-[86%] md:w-[70%] lg:max-w-[49%]`}
       >
         <img
           src={banner}
