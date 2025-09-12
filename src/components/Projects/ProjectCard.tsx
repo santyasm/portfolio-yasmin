@@ -81,7 +81,7 @@ const ProjectCard = ({
         <AnimatedTitle
           text={name}
           className={
-            "max-w-[85%] text-[28px] leading-none text-white sm:max-w-[90%] sm:text-[40px] md:text-[44px] lg:max-w-[450px] lg:text-[48px]"
+            "max-w-[85%] font-mona font-semibold text-[28px] leading-none text-whitetext sm:max-w-[90%] sm:text-[40px] md:text-[44px] lg:max-w-[450px] lg:text-[48px]"
           }
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
@@ -89,7 +89,7 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-3 w-[85%] max-w-[300px] font-semibold text-[#95979D] sm:mt-4 text-[16px]"
+            "mt-3 w-[85%] max-w-[300px] font-inter font-light text-[#95979D] sm:mt-4 text-[16px]"
           }
         />
         <div className="mt-6 flex flex-wrap gap-2 sm:mt-9 sm:gap-4 max-w-[92%]">
@@ -100,7 +100,7 @@ const ProjectCard = ({
               charSpace={"mr-[0.01em]"}
               key={id}
               className={
-                "text-[12px] font-bold uppercase sm:text-[14px] md:text-[16px] lg:text-[18px]"
+                "text-[14px] font-bold uppercase lg:text-[16px] text-whitetext"
               }
             />
           ))}

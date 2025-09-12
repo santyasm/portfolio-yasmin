@@ -45,7 +45,7 @@ const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
     <h1 aria-label={title} role="heading">
       <motion.span
         ref={ref}
-        className="flex overflow-hidden text-center text-[70px] font-extrabold text-whitetext leading-[1em] md:text-[80px] lg:text-[70px]"
+        className="flex overflow-hidden text-center font-extrabold text-whitetext md:leading-[1em] md:text-[80px] lg:text-[90px]"
       >
         {title.split(" ").map((word, index) => (
           <motion.div

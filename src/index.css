@@ -2,21 +2,51 @@
 @import "tailwindcss-animated";
 
 @theme {
+  --color-background: #0e1016;
   --color-darkblue: #100425;
   --color-darksky: #5dffff;
   --color-slightly: #dc00d3;
-  --color-whitetext: #fafafa;
+  --color-whitetext: #e4ded7;
   --font-inter: "Inter", sans-serif;
   --font-josefinsans: "Josefin Sans", sans-serif;
+  --font-mona: "Mona Sans";
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/public/fonts/Mona-Sans-BlackNarrow.woff2") format("woff2");
+  font-weight: 900;
+  font-style: "black";
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/public/fonts/Mona-Sans-BoldNarrow.woff2") format("woff2");
+  font-weight: 700;
+  font-style: semibold;
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/public/fonts/Mona-Sans-LightNarrow.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("/public/fonts/Mona-Sans-MediumNarrow.woff2") format("woff2");
+  font-weight: 500;
+  font-style: medium;
 }
 
 html {
   scroll-behavior: smooth;
-  background-color: var(--color-darkblue);
+  background-color: var(--color-background);
 }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: font-josefinsans, sans-serif;
 }
 
 animate-heartbeat {

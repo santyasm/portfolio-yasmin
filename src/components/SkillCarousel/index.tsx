@@ -4,8 +4,8 @@ import "../../animations/animation.css";
 
 export const SkillsCarousel = () => {
   return (
-    <div className="relative overflow-hidden w-full h-[250px] flex items-center justify-center">
-      <div className="animate absolute flex justify-center items-center">
+    <div className="relative overflow-hidden w-full h-[200px] flex items-center justify-center">
+      <div className="animate absolute flex justify-center items-center  bottom-0">
         <div className="mx-auto flex w-[50%] justify-around gap-2">
           {skills.map((skill: SkillProps, index) => (
             <SkillCard

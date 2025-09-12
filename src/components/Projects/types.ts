@@ -43,7 +43,7 @@ export const projectList = [
     id: 3,
     name: "Video View App",
     description:
-      "Um aplicativo desenvolvido em React Native para visualização de vídeos curtos no formato vertical. O app faz uso da API do Pexels para buscar e exibir os vídeos, com suporte a rolagem infinita, autoplay do vídeo atual e pausa automática dos demais.",
+      "App em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
     technologies: ["React Native"],
     github: "https://github.com/santyasm/video-view",
     demo: "https://github.com/santyasm/video-view",

@@ -7,6 +7,7 @@ import { Projects } from "./components/Projects";
 import Footer from "./components/Footer";
 import { Contact } from "./components/Contact";
 import { Analytics } from "@vercel/analytics/react";
+import NavBar from "./components/Navbar";
 
 function App() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -27,6 +28,7 @@ function App() {
   }, []);
   return (
     <>
+      <NavBar />
       <Home />
       <About />
       <Projects />

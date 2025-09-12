@@ -9,15 +9,15 @@ export const About = () => {
         className="flex flex-col items-center min-h-screen h-auto py-10 justify-center"
         id="about"
       >
-        <img
+        {/* <img
           src="/grid.png"
           alt=""
           className="w-[70vw] md:w-auto absolute top-0 right-0"
-        />
+        /> */}
 
         <AnimatedWords
-          title="Sobre Mim"
-          style="bg-gradient-to-r from-darksky via-slightly to-purple-500 bg-clip-text text-transparent text-[50px] md:text-6xl font-bold"
+          title="SOBRE MIM"
+          style="font-mona text-[60px] md:text-[80px] font-black"
         />
 
         <AnimatedBody

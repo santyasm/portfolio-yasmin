@@ -11,11 +11,11 @@ export const Contact = () => {
       initial="initial"
       animate="animate"
     >
-      <div className="mx-auto flex flex-col w-[90%] items-center justify-center pt-10 md:pt-0">
+      <div className="mx-auto flex flex-col w-[90%] items-center justify-center pt-10 md:pt-0 font-mona">
         <AnimatedWords2
           title="ME MANDE UMA MENSAGEM"
           style={
-            "flex flex-wrap justify-center items-center font-extrabold uppercase leading-[0.9] text-[#e4ded7] text-[17vw] md:flex-row md:justify-center md:items-center md:text-[80px] lg:text-[80px] xl:text-[100px] tracking-tighter"
+            "flex flex-wrap justify-center items-center font-extrabold uppercase leading-[0.9] text-[#e4ded7] text-[19vw] md:flex-row md:justify-center md:items-center md:text-[110px] xl:text-[110px] "
           }
         />
 
@@ -25,7 +25,7 @@ export const Contact = () => {
           className="heartbeat left-32 w-[40%] md:w-[160px] lg:-bottom-16 lg:left-[42%] lg:w-[230px] mt-[-38px] pulseSoft 1.5s ease-in-out infinite"
         />
 
-        <div className="flex gap-6 text-[14px] font-bold text-[#e4ded7] sm:gap-10 sm:text-[16px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+        <div className="flex gap-6 text-[14px] font-medium font-mona  text-[#e4ded7] sm:gap-10 sm:text-[16px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
           <a
             href="mailto:yasantpro@gmail.com?subject=Vamos%20trabalhar%20juntos!&body=Olá,%20Yasmin!"
             target="_blank"
@@ -34,7 +34,7 @@ export const Contact = () => {
             <AnimatedTitle
               text={"EMAIL"}
               className={
-                "text-[18px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                "text-[18px]  text-[#e4ded7] md:text-[16px] lg:text-[28px]"
               }
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
@@ -48,7 +48,7 @@ export const Contact = () => {
             <AnimatedTitle
               text={"GITHUB"}
               className={
-                "text-[18px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                "text-[18px] text-[#e4ded7] md:text-[16px] lg:text-[28px]"
               }
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
@@ -62,7 +62,7 @@ export const Contact = () => {
             <AnimatedTitle
               text={"LINKEDIN"}
               className={
-                "text-[14px] font-bold text-[#e4ded7] sm:text-[16px] md:text-[16px] lg:text-[28px]"
+                "text-[18px] text-[#e4ded7] md:text-[16px] lg:text-[28px]"
               }
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}

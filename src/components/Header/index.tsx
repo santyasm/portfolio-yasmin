@@ -9,41 +9,36 @@ export const Header = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <ul className="mt-6 md:mt-0 flex items-center gap-[8%] justify-center text-gray-100 md:text-[18px] text-[14px]">
-        <a
-          href="/yasmin_developer_cv.pdf"
-          download
-          className="mt-4 flex items-center gap-2 hover:text-darksky transition-all duration-200 font-inter"
-        >
-          <FaRegFilePdf size={20} />
-          <span className="hidden md:inline">Currículo</span>
-        </a>
-        <a
-          href="#about"
-          className="mt-4 hover:text-darksky transition-all duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 hover:after:w-full after:h-[2px] after:bg-darksky after:transition-all after:duration-300 font-inter"
-        >
-          SOBRE
-        </a>
+      <div className="flex justify-between">
+        <div>
+          <a href="/yasmin_developer_cv.pdf" download aria-label="Download cv">
+            <motion.p className="text-[18px] font-semibold text-[#e4ded7] md:text-[24px]">
+              <FaRegFilePdf />
+            </motion.p>
+          </a>
+        </div>
 
-        <img
-          src="/rectangle.png"
-          alt=""
-          className="hidden lg:flex sm:w-[90px] md:w-[196px] lg:w-[196px] object-cover"
-        />
-
-        <a
-          href="#work"
-          className="mt-4 hover:text-darksky transition-all duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 hover:after:w-full after:h-[2px] after:bg-darksky after:transition-all after:duration-300 font-inter"
-        >
-          PROJETOS
-        </a>
-        <a
-          href="#contact"
-          className="mt-4 hover:text-darksky transition-all duration-200 relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-0 hover:after:w-full after:h-[2px] after:bg-darksky after:transition-all after:duration-300 font-inter"
-        >
-          CONTATO
-        </a>
-      </ul>
+        <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
+          <a
+            href="https://github.com/santyasm/"
+            target="_blank"
+            aria-label="View GitHub Profile"
+          >
+            <motion.p className="text-[14px] font-semibold text-[#e4ded7] md:text-[16px]">
+              GITHUB
+            </motion.p>
+          </a>
+          <a
+            href="https://linkedin.com/in/yasmin-santana-santos"
+            target="_blank"
+            aria-label="View LinkedIn Profile"
+          >
+            <motion.p className="text-[14px] font-semibold text-[#e4ded7] md:text-[16px]">
+              LINKEDIN
+            </motion.p>
+          </a>
+        </div>
+      </div>
     </motion.div>
   );
 };
