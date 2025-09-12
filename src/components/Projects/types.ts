@@ -1,3 +1,13 @@
+export interface ProjectCardProps {
+  id: number;
+  name: string;
+  banner: string;
+  technologies: string[];
+  demo: string;
+  github: string;
+  description: string;
+}
+
 export const projectList = [
   {
     id: 0,
