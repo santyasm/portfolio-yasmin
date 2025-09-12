@@ -25,14 +25,14 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`relative z-10  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 h-[550px] md:h-[650px] lg:h-[510px]`}
+      className={`relative z-10  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 min-h-[520px] h-[92vw] md:h-[680px] lg:h-[510px]`}
       initial="initial"
       animate="animate"
     >
       <div
         className={`absolute bottom-0 ${
           id % 2 === 0 ? "right-0" : "left-0"
-        } w-[72%] md:w-[50%] lg:max-w-[49%]`}
+        } w-[80%] md:w-[70%] lg:max-w-[49%]`}
       >
         <img
           src={banner}
@@ -100,7 +100,7 @@ const ProjectCard = ({
               charSpace={"mr-[0.01em]"}
               key={id}
               className={
-                "text-[14px] font-bold uppercase lg:text-[16px] text-whitetext"
+                "text-[10px] font-bold uppercase lg:text-[16px] text-whitetext"
               }
             />
           ))}

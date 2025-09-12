@@ -41,6 +41,7 @@ const NavBar = () => {
     e.preventDefault();
     // get the href and remove everything before the hash (#)
     const href = e.currentTarget.href;
+    // eslint-disable-next-line no-useless-escape
     const targetId = href.replace(/.*\#/, "");
     // get the element by id and use scrollIntoView
     const elem = document.getElementById(targetId);
@@ -83,16 +84,6 @@ const NavBar = () => {
           Home
         </h4>
       </a>
-      <a
-        href="#projects"
-        data-blobity-magnetic="false"
-        onClick={handleScroll}
-        aria-label="Scroll to Projects Section"
-      >
-        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Projetos
-        </h4>
-      </a>
 
       <a
         href="#about"
@@ -102,6 +93,17 @@ const NavBar = () => {
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
           Sobre
+        </h4>
+      </a>
+
+      <a
+        href="#projects"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Projects Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Projetos
         </h4>
       </a>
 

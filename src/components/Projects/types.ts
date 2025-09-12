@@ -1,19 +1,9 @@
-export interface ProjectCardProps {
-  id: number;
-  name: string;
-  banner: string;
-  technologies: string[];
-  demo: string;
-  github: string;
-  description: string;
-}
-
 export const projectList = [
   {
     id: 0,
     name: "Cowork",
     description:
-      "Sistema de gestão de coworking com reservas de salas e mesas, planos de assinatura e painel intuitivo em Laravel + React.",
+      "Sistema completo de gestão de coworking, incluindo reservas de salas e mesas, planos de assinatura e painel intuitivo, desenvolvido em Laravel e React.",
     technologies: ["Laravel", "React", "MySQL"],
     github: "https://github.com/santyasm/cowork",
     demo: "https://cowork-app-main.laravel.cloud/",
@@ -23,8 +13,8 @@ export const projectList = [
     id: 1,
     name: "MTG Life Counter",
     description:
-      "Um aplicativo desenvolvido em React Native (Expo + Bare Workflow) para auxiliar jogadores de Magic: The Gathering a controlarem os pontos de vida durante suas partidas.",
-    technologies: ["React Native", "Expo (Bare Workflow)", "Expo Router"],
+      "Aplicativo em React Native (Expo + Bare Workflow) para jogadores de Magic: The Gathering acompanharem pontos de vida de forma prática durante suas partidas.",
+    technologies: ["React Native", "Expo Router"],
     github: "https://github.com/santyasm/mtg-life-counter",
     demo: "https://github.com/santyasm/mtg-life-counter",
     banner: "/projects/mtg-life-counter.png",
@@ -33,8 +23,8 @@ export const projectList = [
     id: 2,
     name: "Weather App",
     description:
-      "Aplicativo de previsão do tempo desenvolvido em React Native, que exibe informações meteorológicas atuais e previsão diária/semanal com base na localização do usuário.",
-    technologies: ["React Native", "Redux Toolkit", "React Navigation"],
+      "App de previsão do tempo em React Native que exibe informações atuais e previsão diária ou semanal, utilizando localização do usuário para dados precisos.",
+    technologies: ["React Native", "Redux Toolkit"],
     github: "https://github.com/santyasm/weather",
     demo: "https://github.com/santyasm/weather",
     banner: "/projects/weather-app.png",
@@ -43,7 +33,7 @@ export const projectList = [
     id: 3,
     name: "Video View App",
     description:
-      "App em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
+      "Aplicativo em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
     technologies: ["React Native"],
     github: "https://github.com/santyasm/video-view",
     demo: "https://github.com/santyasm/video-view",
@@ -53,7 +43,7 @@ export const projectList = [
     id: 4,
     name: "Countdown Timer Animated",
     description:
-      "Um aplicativo simples desenvolvido em React Native para praticar animações com o hook Animated.",
+      "App simples em React Native para criação de timers animados, desenvolvido para praticar animações utilizando o hook Animated e conceitos de tempo dinâmico.",
     technologies: ["React Native"],
     github: "https://github.com/santyasm/Countdown-Timer-Animation",
     demo: "https://github.com/santyasm/Countdown-Timer-Animation",
@@ -63,7 +53,7 @@ export const projectList = [
     id: 5,
     name: "Ignite Shop",
     description:
-      "Projeto desenvolvido durante a Maratona Ignite da Rocketseat com o objetivo de praticar conceitos de Next.js e integração com Stripe.",
+      "Projeto da Maratona Ignite da Rocketseat para prática de Next.js e integração com Stripe, criando uma loja online funcional e totalmente interativa.",
     technologies: ["Next.js", "Stripe", "Stitches"],
     github: "https://github.com/santyasm/ignite-shop",
     demo: "https://ignite-shop-ivory-beta.vercel.app/",
