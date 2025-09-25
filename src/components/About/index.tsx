@@ -28,7 +28,7 @@ export const About = () => {
         />
       </section>
 
-      <div className="flex w-full overflow-hidden justify-center items-center">
+      <div className="flex w-full overflow-hidden justify-center items-center mb-6">
         <SkillsCarousel />
       </div>
     </div>

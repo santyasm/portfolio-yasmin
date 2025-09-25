@@ -1,64 +1,19 @@
 @keyframes marquee {
   0% {
-    left: 0;
+    transform: translateX(0);
   }
   100% {
-    left: -550%;
+    transform: translateX(-50%);
   }
 }
 
 .animate {
-  position: absolute;
+  display: flex;
   animation: marquee 20s linear infinite;
-  transform: translate(0, -50%);
 }
 
 .animate:hover {
   animation-play-state: paused;
-}
-
-@media (min-width: 640px) {
-  @keyframes marquee {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -340%;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  @keyframes marquee {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -355%;
-    }
-  }
-}
-
-@media (min-width: 1024px) {
-  @keyframes marquee {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -300%;
-    }
-  }
-}
-
-@media (min-width: 1280px) {
-  @keyframes marquee {
-    0% {
-      left: 0;
-    }
-    100% {
-      left: -200%;
-    }
-  }
 }
 
 .heartbeat {

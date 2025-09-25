@@ -14,12 +14,12 @@ export const SkillCard = ({ link, icon, name }: SkillProps) => {
       // data-blobity-tooltip={name}
     >
       <div
-        className={`relative flex h-[120px] w-[150px] items-center justify-center overflow-hidden rounded-xl`}
+        className={`relative flex h-auto w-[120px] md:w-[160px] items-center justify-center overflow-hidden`}
       >
         <img
           src={icon}
           alt={name}
-          className="w-[100px] h-auto rounded-xl object-cover object-center"
+          className="w-[60px] md:w-[100px] h-auto rounded-xl object-cover object-center"
         />
       </div>
     </a>

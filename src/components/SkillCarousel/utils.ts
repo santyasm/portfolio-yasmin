@@ -59,6 +59,13 @@ export const skills: SkillProps[] = [
     link: "https://expressjs.com/",
   },
   { name: "Fastify", icon: "/icons/fastify.svg", link: "https://fastify.dev/" },
+  { name: "PHP", icon: "/icons/php.svg", link: "https://php.net/" },
+  { name: "Laravel", icon: "/icons/laravel.svg", link: "https://laravel.com/" },
+  {
+    name: "Composer",
+    icon: "/icons/composer.svg",
+    link: "https://https://getcomposer.org//",
+  },
 
   // Databases & ORMs
   { name: "Prisma", icon: "/icons/prisma.svg", link: "https://www.prisma.io/" },
