@@ -25,19 +25,19 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`relative z-10  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 min-h-[520px] h-[92vw] md:h-[680px] lg:h-[510px]`}
+      className={`relative z-10  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 min-h-[520px] h-[92vw] md:max-h-[560px] lg:h-[510px]`}
       initial="initial"
       animate="animate"
     >
       <div
         className={`absolute bottom-0 ${
           id % 2 === 0 ? "right-0" : "left-0"
-        } w-[86%] md:w-[70%] lg:max-w-[49%]`}
+        } w-[100%] md:max-w-[50%] lg:max-w-[49%]`}
       >
         <img
           src={banner}
           alt=""
-          className="w-full h-auto object-contain rounded-3xl"
+          className="w-full h-auto object-contain max-h-[420px] rounded-xl md:rounded-3xl"
         />
       </div>
 
@@ -72,9 +72,9 @@ const ProjectCard = ({
       </div>
 
       <div
-        className={`mt-4 absolute text-white md:max-w-[45%] ${
+        className={`mt-4 absolute text-white lg:max-w-[45%]  ${
           !(id % 2 === 0)
-            ? "right-0 top-16 mr-0 ml-10 md:right-0 md:top-28 lg:right-0 lg:top-48 lg:mr-4"
+            ? "right-0 top-16 mr-0 ml-10 md:right-0 md:top-28 lg:right-0 lg:top-48 lg:mr-10"
             : "left-6 top-16 ml-0 sm:left-10 sm:top-24 md:mr-12 md:top-28 lg:top-44 lg:ml-4"
         } mb-6 sm:mb-10 md:mb-16 lg:mb-14`}
       >
@@ -89,7 +89,7 @@ const ProjectCard = ({
         <AnimatedBody
           text={description}
           className={
-            "mt-3 w-[85%] max-w-[300px] font-inter font-light text-[#95979D] sm:mt-4 text-[16px]"
+            "mt-3 w-[90%] lg:max-w-[420px] font-inter font-light text-[#95979D] sm:mt-4 text-[16px]"
           }
         />
         <div className="mt-6 flex flex-wrap gap-2 sm:mt-9 sm:gap-4 max-w-[92%]">
