@@ -16,7 +16,7 @@ export const projectList = [
       "Sistema completo de gestão de coworking, incluindo reservas de salas e mesas, planos de assinatura e painel intuitivo, desenvolvido em Laravel e React.",
     technologies: ["Laravel", "React", "MySQL"],
     github: "https://github.com/santyasm/cowork",
-    demo: "https://cowork-app-main.laravel.cloud/",
+    demo: "https://cowork.yasminsantana.fun/",
     banner: "/projects/cowork.png",
   },
   {
