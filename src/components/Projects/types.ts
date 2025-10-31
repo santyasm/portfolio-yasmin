@@ -31,6 +31,16 @@ export const projectList = [
   },
   {
     id: 2,
+    name: "Twii",
+    description:
+      "Frontend de uma rede social inspirada no Twitter, desenvolvida com Next.js 15, React 19 e TailwindCSS 4. Design moderno, modo escuro e animações fluidas com Framer Motion.",
+    technologies: ["NEXT.JS", "TAILWINDCSS"],
+    github: "https://github.com/santyasm/twii-social-front",
+    demo: "https://twii.yasminsantana.fun",
+    banner: "/projects/twii.png",
+  },
+  {
+    id: 3,
     name: "MTG Life Counter",
     description:
       "Aplicativo em React Native (Expo + Bare Workflow) para jogadores de Magic: The Gathering acompanharem pontos de vida de forma prática durante suas partidas.",
@@ -40,7 +50,7 @@ export const projectList = [
     banner: "/projects/mtg-life-counter.png",
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather App",
     description:
       "App de previsão do tempo em React Native que exibe informações atuais e previsão diária ou semanal, utilizando localização do usuário para dados precisos.",
@@ -50,7 +60,7 @@ export const projectList = [
     banner: "/projects/weather-app.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "Video View App",
     description:
       "Aplicativo em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
@@ -60,7 +70,7 @@ export const projectList = [
     banner: "/projects/video-view.png",
   },
   {
-    id: 5,
+    id: 6,
     name: "Countdown Timer Animated",
     description:
       "App simples em React Native para criação de timers animados, desenvolvido para praticar animações utilizando o hook Animated e conceitos de tempo dinâmico.",
@@ -70,7 +80,7 @@ export const projectList = [
     banner: "/projects/countdown-rn.png",
   },
   {
-    id: 6,
+    id: 7,
     name: "Ignite Shop",
     description:
       "Projeto da Maratona Ignite da Rocketseat para prática de Next.js e integração com Stripe, criando uma loja online funcional e totalmente interativa.",
