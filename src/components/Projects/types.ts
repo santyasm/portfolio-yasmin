@@ -71,6 +71,16 @@ export const projectList = [
   },
   {
     id: 6,
+    name: "URL Shortener",
+    description:
+      "Serviço moderno de encurtamento de URLs com rastreamento de cliques, datas de expiração e geração de QR Codes.",
+    technologies: ["React", "Bun", "Prisma"],
+    github: "https://github.com/santyasm/url-shortener",
+    demo: "https://url-shortener.yasminsantana.fun",
+    banner: "/projects/url-shortener.png",
+  },
+  {
+    id: 7,
     name: "Countdown Timer Animated",
     description:
       "App simples em React Native para criação de timers animados, desenvolvido para praticar animações utilizando o hook Animated e conceitos de tempo dinâmico.",
@@ -80,7 +90,7 @@ export const projectList = [
     banner: "/projects/countdown-rn.png",
   },
   {
-    id: 7,
+    id: 8,
     name: "Ignite Shop",
     description:
       "Projeto da Maratona Ignite da Rocketseat para prática de Next.js e integração com Stripe, criando uma loja online funcional e totalmente interativa.",
