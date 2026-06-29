@@ -18,7 +18,7 @@ export const Header = () => {
     >
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-4">
-          <a
+          {/* <a
             href="/yasmin_developer_cv.pdf"
             download
             aria-label={t("header.cvAriaLabel")}
@@ -27,7 +27,7 @@ export const Header = () => {
             <motion.p className="text-[18px] font-semibold text-[#e4ded7] md:text-[24px]" data-magnetic="false">
               <FaRegFilePdf />
             </motion.p>
-          </a>
+          </a> */}
 
           <button
             onClick={toggleLanguage}
