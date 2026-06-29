@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import { FaRegFilePdf } from "react-icons/fa6";
+// import { FaRegFilePdf } from "react-icons/fa6";
 
 export const Header = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
     i18n.changeLanguage(i18n.language === "en" ? "pt-BR" : "en");

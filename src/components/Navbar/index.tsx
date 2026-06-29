@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { FaRegFilePdf } from "react-icons/fa6";
+// import { FaRegFilePdf } from "react-icons/fa6";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -60,8 +60,8 @@ const NavBar = () => {
   return (
     <nav
       className={`fixed bottom-10 left-0 right-0 z-[9999] my-0 mx-auto flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md transition-all duration-700 ease-out sm:w-[383.3px] md:p-2 lg:w-[391.3px] ${isVisible
-          ? "translate-y-0 opacity-100 scale-100"
-          : "translate-y-20 opacity-0 scale-95"
+        ? "translate-y-0 opacity-100 scale-100"
+        : "translate-y-20 opacity-0 scale-95"
         }`}
     >
       {/* <a
