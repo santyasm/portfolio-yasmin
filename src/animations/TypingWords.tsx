@@ -58,7 +58,7 @@ const TypingWords: React.FC = () => {
         initial={{ opacity: 0, y: 8 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
-        className="text-whitetext font-semibold font-code text-[24px] md:text-[26px] lg:text-[32px]"
+        className="text-gray-400 font-semibold font-code text-[16px] md:text-[26px] lg:text-[20px]"
         style={{ minWidth: `${maxLen}ch` }}
         aria-live="polite"
       >
