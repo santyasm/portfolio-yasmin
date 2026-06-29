@@ -22,7 +22,66 @@
   },
   "about": {
     "title": "ABOUT ME",
-    "body": "I like building things. Most of my work is centered around JavaScript and TypeScript, developing web and mobile applications with React, React Native and Node.js. I'm comfortable taking a feature from an idea to production, working across the entire stack."
+    "body": "Full stack developer focused on the JavaScript and TypeScript ecosystem, building web and mobile applications with React, React Native and Node.js. I like turning real problems into simple, well-built and useful digital products.",
+    "experienceTitle": "Professional Experience",
+    "educationTitle": "Education",
+    "education": [
+      {
+        "degree": "B.Sc. in Information Systems",
+        "institution": "Universidade Salvador – UNIFACS",
+        "period": "2023 – 2027"
+      }
+    ],
+    "stackTitle": "Stacks",
+    "experience": [
+      {
+        "role": "Developer Analyst",
+        "company": "Central IT",
+        "period": "Jun 2026 – present",
+        "location": "Remote",
+        "description": "Engineering team that builds web and mobile tools for internal developers working with the company's lowcode platform. Responsible for creating and maintaining these solutions."
+      },
+      {
+        "role": "Developer Analyst",
+        "company": "Run2Biz",
+        "period": "Nov 2025 – Jun 2026",
+        "location": "Remote",
+        "description": "Same scope — building and maintaining web and mobile applications used by in-house developers on the lowcode platform."
+      },
+      {
+        "role": "Mobile | Front-End Developer",
+        "company": "Winflue",
+        "period": "Sep 2023 – Sep 2025",
+        "location": "Hybrid",
+        "description": "Built features for apps and websites using React, React Native, TypeScript, Redux Toolkit and third-party integrations."
+      },
+      {
+        "role": "IT Support Analyst",
+        "company": "Sudoeste Informática",
+        "period": "Apr 2022 – Nov 2023",
+        "location": "On-site",
+        "description": "Technical support, SQL Server and business-rule assistance for a payroll management system."
+      }
+    ],
+    "stacks": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "TypeScript",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "MongoDB",
+      "Firebase",
+      "Redux",
+      "Docker",
+      "Git"
+    ]
   },
   "projects": {
     "title": "PROJECTS",

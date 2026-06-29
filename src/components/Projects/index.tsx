@@ -27,6 +27,7 @@ export const Projects = () => {
             id={project.id}
             key={project.id}
             name={project.name}
+            descriptionKey={project.descriptionKey}
             description={t(`projects.descriptions.${project.descriptionKey}`)}
             technologies={project.technologies}
             github={project.github}

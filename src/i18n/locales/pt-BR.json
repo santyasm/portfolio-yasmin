@@ -22,7 +22,66 @@
   },
   "about": {
     "title": "SOBRE MIM",
-    "body": "Gosto de construir produtos. Meu trabalho é focado no ecossistema JavaScript e TypeScript, desenvolvendo aplicações web e mobile com React, React Native e Node.js. Tenho experiência em levar uma funcionalidade da ideia até a produção, atuando em toda a stack."
+    "body": "Desenvolvedora full stack focada no ecossistema JavaScript e TypeScript, criando aplicações web e mobile com React, React Native e Node.js. Gosto de transformar problemas reais em produtos digitais simples, bem construídos e úteis.",
+    "experienceTitle": "Experiência profissional",
+    "educationTitle": "Educação",
+    "education": [
+      {
+        "degree": "Bacharelado em Sistemas de Informação",
+        "institution": "Universidade Salvador – UNIFACS",
+        "period": "2023 – 2027"
+      }
+    ],
+    "stackTitle": "Stacks",
+    "experience": [
+      {
+        "role": "Analista Desenvolvedora",
+        "company": "Central IT",
+        "period": "Jun 2026 – presente",
+        "location": "Remoto",
+        "description": "Time de engenharia que cria ferramentas web e mobile para devs internos que desenvolvem soluções na plataforma lowcode da empresa. Responsável pela criação e manutenção dessas soluções."
+      },
+      {
+        "role": "Analista Desenvolvedora",
+        "company": "Run2Biz",
+        "period": "Nov 2025 – Jun 2026",
+        "location": "Remoto",
+        "description": "Mesmo escopo — criação e manutenção de aplicações web e mobile utilizadas pelos devs internos na plataforma lowcode."
+      },
+      {
+        "role": "Desenvolvedora Mobile | Front-End",
+        "company": "Winflue",
+        "period": "Set 2023 – Set 2025",
+        "location": "Híbrido",
+        "description": "Criação de funcionalidades para apps e sites com React, React Native, TypeScript, Redux Toolkit e integrações."
+      },
+      {
+        "role": "Analista de Suporte de TI",
+        "company": "Sudoeste Informática",
+        "period": "Abr 2022 – Nov 2023",
+        "location": "Presencial",
+        "description": "Suporte técnico, SQL Server e apoio às regras de negócio de sistema de folha de pagamento."
+      }
+    ],
+    "stacks": [
+      "React",
+      "React Native",
+      "Next.js",
+      "Node.js",
+      "NestJS",
+      "TypeScript",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "MongoDB",
+      "Firebase",
+      "Redux",
+      "Docker",
+      "Git"
+    ]
   },
   "projects": {
     "title": "PROJETOS",
