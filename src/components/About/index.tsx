@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import AnimatedBody from "../../animations/AnimatedBody";
 import AnimatedWords from "../../animations/AnimationWords";
-import { SkillsCarousel } from "../SkillCarousel";
+// import { SkillsCarousel } from "../SkillCarousel";
+import { FilmsCarousel } from "../FilmsCarousel";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -95,9 +96,10 @@ export const About = () => {
         </div>
       </section>
 
-      <div className="flex w-full overflow-hidden justify-center items-center mb-6">
+      {/* <div className="flex w-full overflow-hidden justify-center items-center mb-6">
         <SkillsCarousel />
-      </div>
+      </div> */}
+      <FilmsCarousel />
     </div>
   );
 };

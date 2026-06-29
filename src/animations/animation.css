@@ -16,6 +16,15 @@
   animation-play-state: paused;
 }
 
+.animate-slow {
+  display: flex;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-slow:hover {
+  animation-play-state: paused;
+}
+
 .heartbeat {
   animation: beat 0.3s infinite alternate;
   transform-origin: center;
