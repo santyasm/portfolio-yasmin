@@ -1,21 +1,24 @@
+import { useTranslation } from "react-i18next";
 import AnimatedBody from "../../animations/AnimatedBody";
 import AnimatedWords from "../../animations/AnimationWords";
 import ProjectCard from "./ProjectCard";
 import { projectList, type ProjectCardProps } from "./types";
 
 export const Projects = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="projects"
       className="flex flex-col items-center min-h-screen h-auto py-10 justify-center relative"
     >
       <AnimatedWords
-        title={"PROJETOS"}
+        title={t("projects.title")}
         style="text-[80px] md:text-[90px] font-black font-code ml-2.5"
       />
 
       <AnimatedBody
-        text="Uma coleção de projetos nos quais trabalhei"
+        text={t("projects.subtitle")}
         className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px] text-gray-400 mb-10 mt-2"
       />
       <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
@@ -24,7 +27,7 @@ export const Projects = () => {
             id={project.id}
             key={project.id}
             name={project.name}
-            description={project.description}
+            description={t(`projects.descriptions.${project.descriptionKey}`)}
             technologies={project.technologies}
             github={project.github}
             demo={project.demo}

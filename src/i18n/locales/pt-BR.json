@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "cvAriaLabel": "Veja meu currículo",
+    "cvTooltip": "Baixar currículo"
+  },
+  "header": {
+    "cvAriaLabel": "Baixar currículo"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou Yasmin Santana",
+    "imageAlt": "Yasmin Santana",
+    "blobityTooltip": "Oi!",
+    "roles": [
+      "DESENVOLVEDORA FULLSTACK",
+      "DESENVOLVEDORA FRONTEND",
+      "DESENVOLVEDORA DE SOFTWARE"
+    ]
+  },
+  "about": {
+    "title": "SOBRE MIM",
+    "body": "Gosto de construir produtos. Meu trabalho é focado no ecossistema JavaScript e TypeScript, desenvolvendo aplicações web e mobile com React, React Native e Node.js. Tenho experiência em levar uma funcionalidade da ideia até a produção, atuando em toda a stack."
+  },
+  "projects": {
+    "title": "PROJETOS",
+    "subtitle": "Uma coleção de projetos nos quais trabalhei",
+    "githubAriaLabel": "Abrir repositório no GitHub",
+    "demoAriaLabel": "Abrir demonstração ao vivo",
+    "descriptions": {
+      "cowork": "Sistema completo de gestão de coworking, incluindo reservas de salas e mesas, planos de assinatura e painel intuitivo, desenvolvido em Laravel e React.",
+      "devlearn": "Front-end da DevLearn: interface web moderna com Next.js e TailwindCSS, consumindo a DevLearn API para cursos, vídeos e progresso de aprendizado.",
+      "twii": "Frontend de uma rede social inspirada no Twitter, desenvolvida com Next.js 15, React 19 e TailwindCSS 4. Design moderno, modo escuro e animações fluidas com Framer Motion.",
+      "mtg": "Aplicativo em React Native (Expo + Bare Workflow) para jogadores de Magic: The Gathering acompanharem pontos de vida de forma prática durante suas partidas.",
+      "weather": "App de previsão do tempo em React Native que exibe informações atuais e previsão diária ou semanal, utilizando localização do usuário para dados precisos.",
+      "videoview": "Aplicativo em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
+      "urlshortener": "Serviço moderno de encurtamento de URLs com rastreamento de cliques, datas de expiração e geração de QR Codes.",
+      "countdown": "App simples em React Native para criação de timers animados, desenvolvido para praticar animações utilizando o hook Animated e conceitos de tempo dinâmico.",
+      "igniteshop": "Projeto da Maratona Ignite da Rocketseat para prática de Next.js e integração com Stripe, criando uma loja online funcional e totalmente interativa."
+    }
+  },
+  "contact": {
+    "title": "ME MANDE UMA MENSAGEM",
+    "emailAriaLabel": "Me mande um email",
+    "githubAriaLabel": "Ver Perfil do Github",
+    "linkedinAriaLabel": "Ver Perfil do LinkedIn"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com",
+    "by": "por Yasmin Santana"
+  }
+}

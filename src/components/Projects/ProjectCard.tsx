@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 import type { ProjectCardProps } from "./types";
@@ -14,6 +15,8 @@ const ProjectCard = ({
   demo,
   banner,
 }: ProjectCardProps) => {
+  const { t } = useTranslation();
+
   return (
     <motion.div
       style={
@@ -52,7 +55,7 @@ const ProjectCard = ({
           href={github}
           target="_blank"
           className="rounded-full"
-          aria-label="Open GitHub Repository"
+          aria-label={t("projects.githubAriaLabel")}
         >
           <FaGithub
             className="text-black bg-bal text-[28px] w-[38px] h-auto bg-white flex item-center justify-center rounded-full p-1.5 md:p-3  md:w-[48px] lg:w-[56px]"
@@ -61,7 +64,7 @@ const ProjectCard = ({
             data-blobity-magnetic="true"
           />
         </a>
-        <a href={demo} target="_blank" aria-label="Open Live Demo">
+        <a href={demo} target="_blank" aria-label={t("projects.demoAriaLabel")}>
           <IoIosLink
             className="text-black bg-bal text-[28px] w-[38px] h-auto bg-white flex item-center justify-center rounded-full p-1.5 md:p-3 md:w-[48px] lg:w-[56px]"
             data-blobity

@@ -1,27 +1,24 @@
 import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
-const ROLES = [
-  "FULLSTACK DEVELOPER",
-  "FRONTEND DEVELOPER",
-  "SOFTWARE DEVELOPER",
-];
-
-// velocidades
-const TYPING_MS = 160; // digitar
-const DELETING_MS = 80; // apagar
-const PAUSE_MS = 1200; // pausa palavra completa
-const JITTER = 0.2; // 0.2 = variação ±10% (coloque 0 para desativar)
+const TYPING_MS = 160;
+const DELETING_MS = 80;
+const PAUSE_MS = 1200;
+const JITTER = 0.2;
 
 const TypingWords: React.FC = () => {
+  const { t } = useTranslation();
+  const roles = t("hero.roles", { returnObjects: true }) as string[];
+
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [deleting, setDeleting] = useState(false);
 
-  const maxLen = useMemo(() => Math.max(...ROLES.map((r) => r.length)), []);
+  const maxLen = useMemo(() => Math.max(...roles.map((r) => r.length)), [roles]);
 
   useEffect(() => {
-    const current = ROLES[index];
+    const current = roles[index];
 
     // velocidade com leve "humanização"
     const base = deleting ? DELETING_MS : TYPING_MS;
@@ -39,7 +36,7 @@ const TypingWords: React.FC = () => {
     // troca para a próxima palavra após apagar tudo
     if (deleting && text === "") {
       setDeleting(false);
-      setIndex((i) => (i + 1) % ROLES.length);
+      setIndex((i) => (i + 1) % roles.length);
       return;
     }
 

@@ -6,14 +6,15 @@ export interface ProjectCardProps {
   demo: string;
   github: string;
   description: string;
+  descriptionKey: string;
 }
 
 export const projectList = [
   {
     id: 0,
     name: "Cowork",
-    description:
-      "Sistema completo de gestão de coworking, incluindo reservas de salas e mesas, planos de assinatura e painel intuitivo, desenvolvido em Laravel e React.",
+    descriptionKey: "cowork",
+    description: "",
     technologies: ["Laravel", "React", "MySQL"],
     github: "https://github.com/santyasm/cowork",
     demo: "https://cowork.yasminsantana.fun/",
@@ -22,8 +23,8 @@ export const projectList = [
   {
     id: 1,
     name: "DevLearn",
-    description:
-      "Front-end da DevLearn: interface web moderna com Next.js e TailwindCSS, consumindo a DevLearn API para cursos, vídeos e progresso de aprendizado.",
+    descriptionKey: "devlearn",
+    description: "",
     technologies: ["NEXT.JS", "TAILWINDCSS"],
     github: "https://github.com/santyasm/dev-learn-front",
     demo: "https://dev-learn-front.vercel.app",
@@ -32,8 +33,8 @@ export const projectList = [
   {
     id: 2,
     name: "Twii",
-    description:
-      "Frontend de uma rede social inspirada no Twitter, desenvolvida com Next.js 15, React 19 e TailwindCSS 4. Design moderno, modo escuro e animações fluidas com Framer Motion.",
+    descriptionKey: "twii",
+    description: "",
     technologies: ["NEXT.JS", "TAILWINDCSS"],
     github: "https://github.com/santyasm/twii-social-front",
     demo: "https://twii.yasminsantana.fun",
@@ -42,8 +43,8 @@ export const projectList = [
   {
     id: 3,
     name: "MTG Life Counter",
-    description:
-      "Aplicativo em React Native (Expo + Bare Workflow) para jogadores de Magic: The Gathering acompanharem pontos de vida de forma prática durante suas partidas.",
+    descriptionKey: "mtg",
+    description: "",
     technologies: ["React Native", "Expo Router"],
     github: "https://github.com/santyasm/mtg-life-counter",
     demo: "https://github.com/santyasm/mtg-life-counter",
@@ -52,8 +53,8 @@ export const projectList = [
   {
     id: 4,
     name: "Weather App",
-    description:
-      "App de previsão do tempo em React Native que exibe informações atuais e previsão diária ou semanal, utilizando localização do usuário para dados precisos.",
+    descriptionKey: "weather",
+    description: "",
     technologies: ["React Native", "Redux Toolkit"],
     github: "https://github.com/santyasm/weather",
     demo: "https://github.com/santyasm/weather",
@@ -62,8 +63,8 @@ export const projectList = [
   {
     id: 5,
     name: "Video View App",
-    description:
-      "Aplicativo em React Native para vídeos curtos verticais, usando a API do Pexels, com rolagem infinita, autoplay do vídeo atual e pausa automática dos outros.",
+    descriptionKey: "videoview",
+    description: "",
     technologies: ["React Native"],
     github: "https://github.com/santyasm/video-view",
     demo: "https://github.com/santyasm/video-view",
@@ -72,8 +73,8 @@ export const projectList = [
   {
     id: 6,
     name: "URL Shortener",
-    description:
-      "Serviço moderno de encurtamento de URLs com rastreamento de cliques, datas de expiração e geração de QR Codes.",
+    descriptionKey: "urlshortener",
+    description: "",
     technologies: ["React", "Bun", "Prisma"],
     github: "https://github.com/santyasm/url-shortener",
     demo: "https://url-shortener.yasminsantana.fun",
@@ -82,8 +83,8 @@ export const projectList = [
   {
     id: 7,
     name: "Countdown Timer Animated",
-    description:
-      "App simples em React Native para criação de timers animados, desenvolvido para praticar animações utilizando o hook Animated e conceitos de tempo dinâmico.",
+    descriptionKey: "countdown",
+    description: "",
     technologies: ["React Native"],
     github: "https://github.com/santyasm/Countdown-Timer-Animation",
     demo: "https://github.com/santyasm/Countdown-Timer-Animation",
@@ -92,8 +93,8 @@ export const projectList = [
   {
     id: 8,
     name: "Ignite Shop",
-    description:
-      "Projeto da Maratona Ignite da Rocketseat para prática de Next.js e integração com Stripe, criando uma loja online funcional e totalmente interativa.",
+    descriptionKey: "igniteshop",
+    description: "",
     technologies: ["Next.js", "Stripe", "Stitches"],
     github: "https://github.com/santyasm/ignite-shop",
     demo: "https://ignite-shop-ivory-beta.vercel.app/",

@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cvAriaLabel": "View my resume",
+    "cvTooltip": "Download resume"
+  },
+  "header": {
+    "cvAriaLabel": "Download resume"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Yasmin Santana",
+    "imageAlt": "Yasmin Santana",
+    "blobityTooltip": "Hi!",
+    "roles": [
+      "FULLSTACK DEVELOPER",
+      "FRONTEND DEVELOPER",
+      "SOFTWARE DEVELOPER"
+    ]
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "body": "I like building things. Most of my work is centered around JavaScript and TypeScript, developing web and mobile applications with React, React Native and Node.js. I'm comfortable taking a feature from an idea to production, working across the entire stack."
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "subtitle": "A collection of projects I've worked on",
+    "githubAriaLabel": "Open GitHub Repository",
+    "demoAriaLabel": "Open Live Demo",
+    "descriptions": {
+      "cowork": "Complete coworking management system, including room and desk reservations, subscription plans, and an intuitive dashboard, built with Laravel and React.",
+      "devlearn": "DevLearn front-end: a modern web interface built with Next.js and TailwindCSS, consuming the DevLearn API for courses, videos, and learning progress.",
+      "twii": "Front-end of a Twitter-inspired social network, built with Next.js 15, React 19, and TailwindCSS 4. Modern design, dark mode, and fluid animations with Framer Motion.",
+      "mtg": "React Native app (Expo + Bare Workflow) for Magic: The Gathering players to conveniently track life points during their games.",
+      "weather": "React Native weather forecast app that displays current conditions and daily or weekly forecasts, using the user's location for accurate data.",
+      "videoview": "React Native app for short vertical videos using the Pexels API, with infinite scroll, autoplay for the current video, and automatic pause for others.",
+      "urlshortener": "Modern URL shortening service with click tracking, expiration dates, and QR Code generation.",
+      "countdown": "Simple React Native app for creating animated timers, built to practice animations using the Animated hook and dynamic time concepts.",
+      "igniteshop": "Rocketseat Ignite Marathon project for practicing Next.js and Stripe integration, creating a fully interactive online store."
+    }
+  },
+  "contact": {
+    "title": "SEND ME A MESSAGE",
+    "emailAriaLabel": "Send me an email",
+    "githubAriaLabel": "View GitHub Profile",
+    "linkedinAriaLabel": "View LinkedIn Profile"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with",
+    "by": "by Yasmin Santana"
+  }
+}

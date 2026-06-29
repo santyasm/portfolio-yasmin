@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { FaRegFilePdf } from "react-icons/fa6";
 
 const NavBar = () => {
+  const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -67,8 +69,8 @@ const NavBar = () => {
         href="/yasmin_developer_cv.pdf"
         download
         className="flex"
-        aria-label="Veja meu currículo"
-        data-blobity-tooltip="Baixar currículo"
+        aria-label={t("nav.cvAriaLabel")}
+        data-blobity-tooltip={t("nav.cvTooltip")}
         data-blobity-magnetic="false"
       >
         <FaRegFilePdf />
@@ -81,7 +83,7 @@ const NavBar = () => {
         aria-label="Scroll to Home Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Home
+          {t("nav.home")}
         </h4>
       </a>
 
@@ -92,7 +94,7 @@ const NavBar = () => {
         aria-label="Scroll to About Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Sobre
+          {t("nav.about")}
         </h4>
       </a>
 
@@ -103,7 +105,7 @@ const NavBar = () => {
         aria-label="Scroll to Projects Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Projetos
+          {t("nav.projects")}
         </h4>
       </a>
 
@@ -114,7 +116,7 @@ const NavBar = () => {
         aria-label="Scroll to Contact Section"
       >
         <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
-          Contato
+          {t("nav.contact")}
         </h4>
       </a>
     </nav>

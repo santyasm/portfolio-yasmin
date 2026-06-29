@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import AnimatedBody from "../../animations/AnimatedBody";
 
 const Footer = () => {
+  const { t } = useTranslation();
   const year = new Date().getFullYear();
 
   return (
@@ -12,12 +14,12 @@ const Footer = () => {
     >
       <motion.div className="mx-auto flex w-[90%] flex-col items-center justify-center gap-3 text-center text-[10px] text-whitetext sm:flex-row sm:justify-between md:text-[14px] lg:max-w-[1440px]">
         <AnimatedBody
-          text={`© ${year} | All rights reserved.`}
+          text={`© ${year} | ${t("footer.rights")}`}
           className={"m-0 p-0"}
         />
 
         <div className="flex items-center gap-1.5 text-whitetext sm:gap-2 font-bold">
-          <span className="text-[10px] md:text-[14px]">Feito com</span>
+          <span className="text-[10px] md:text-[14px]">{t("footer.madeWith")}</span>
           <motion.span
             className="text-[12px] sm:text-[16px] md:text-[18px]"
             animate={{
@@ -29,10 +31,10 @@ const Footer = () => {
               ease: "easeInOut",
             }}
           >
-            💜
+            🩶
           </motion.span>
           <span className="text-[10px] sm:text-[14px] md:text-[16px]">
-            por Yasmin Santana
+            {t("footer.by")}
           </span>
         </div>
       </motion.div>

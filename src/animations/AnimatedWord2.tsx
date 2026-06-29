@@ -40,15 +40,17 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
     },
   };
 
+  const words = title.split(" ");
+
   return (
     <h1 aria-label={title} role="heading">
       <motion.span className={style} ref={ref}>
-        {title.split(" ").map((word, index) => (
+        {words.map((word, index) => (
           <motion.div
             key={index}
             initial="initial"
             animate={ctrls}
-            className="flex items-center justify-center overflow-hidden ,md:last:-mr-10 last:-mr-5 pb-2 sm:pb-0"
+            className="flex items-center justify-center overflow-hidden pb-2 sm:pb-0"
             transition={{
               delayChildren: index * 0.25,
               staggerChildren: 0.05,
@@ -58,7 +60,7 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
               className="-mb-4 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               variants={wordAnimation2}
             >
-              {word + "\u00A0"}
+              {index < words.length - 1 ? word + "\u00A0" : word}
             </motion.span>
           </motion.div>
         ))}

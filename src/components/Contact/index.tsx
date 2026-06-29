@@ -1,9 +1,12 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import "../../animations/animation.css";
 import AnimatedWords2 from "../../animations/AnimatedWord2";
 import AnimatedTitle from "../../animations/AnimationTitle";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <motion.section
       className="relative z-10 flex h-[95vh] w-full items-center justify-center overflow-hidden bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28 3xl:h-[75vh]"
@@ -11,11 +14,11 @@ export const Contact = () => {
       initial="initial"
       animate="animate"
     >
-      <div className="mx-auto flex flex-col w-[90%] items-center justify-center pt-10 md:pt-0 font-code">
+      <div className="mx-auto flex flex-col w-[91%] items-center justify-center pt-10 md:pt-0 font-code">
         <AnimatedWords2
-          title="ME MANDE UMA MENSAGEM"
+          title={t("contact.title")}
           style={
-            "flex flex-wrap justify-center items-center font-extrabold uppercase leading-[0.9] text-[#e4ded7] text-[19vw] md:flex-row md:justify-center md:items-center md:text-[110px] xl:text-[110px] "
+            "flex flex-wrap justify-center items-center font-extrabold uppercase lg:leading-[1] leading-[0.9] text-[#e4ded7] text-[19vw] md:flex-row md:justify-center md:items-center md:text-[110px] xl:text-[110px]"
           }
         />
 
@@ -29,7 +32,7 @@ export const Contact = () => {
           <a
             href="mailto:yasantpro@gmail.com?subject=Vamos%20trabalhar%20juntos!&body=Olá,%20Yasmin!"
             target="_blank"
-            aria-label="Me mande um email"
+            aria-label={t("contact.emailAriaLabel")}
           >
             <AnimatedTitle
               text={"EMAIL"}
@@ -43,7 +46,7 @@ export const Contact = () => {
           <a
             href="https://github.com/santyasm/"
             target="_blank"
-            aria-label="Ver Perfil do Github"
+            aria-label={t("contact.githubAriaLabel")}
           >
             <AnimatedTitle
               text={"GITHUB"}
@@ -57,7 +60,7 @@ export const Contact = () => {
           <a
             href="https://www.linkedin.com/in/yasmin-santana-santos/"
             target="_blank"
-            aria-label="Ver Perfil do LinkedIn"
+            aria-label={t("contact.linkedinAriaLabel")}
           >
             <AnimatedTitle
               text={"LINKEDIN"}
