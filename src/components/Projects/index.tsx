@@ -14,7 +14,7 @@ export const Projects = () => {
     >
       <AnimatedWords
         title={t("projects.title")}
-        style="text-[80px] md:text-[90px] font-black font-code ml-2.5"
+        style="text-[70px] md:text-[90px] font-black font-code"
       />
 
       <AnimatedBody
