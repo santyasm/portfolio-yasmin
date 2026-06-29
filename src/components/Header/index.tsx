@@ -4,7 +4,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 export const Header = () => {
   return (
     <motion.div
-      className="font-inter"
+      className="font-code"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}

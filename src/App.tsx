@@ -15,8 +15,8 @@ function App() {
   const [fontsLoaded, setFontsLoaded] = useState(false);
 
   useEffect(() => {
-    const inter = new FontFaceObserver("Mona Sans");
-    inter.load().then(() => setFontsLoaded(true));
+    const codeFont = new FontFaceObserver("Google Sans Code");
+    codeFont.load().then(() => setFontsLoaded(true));
   }, []);
 
   useEffect(() => {

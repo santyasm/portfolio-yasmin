@@ -11,7 +11,7 @@ export const Contact = () => {
       initial="initial"
       animate="animate"
     >
-      <div className="mx-auto flex flex-col w-[90%] items-center justify-center pt-10 md:pt-0 font-mona">
+      <div className="mx-auto flex flex-col w-[90%] items-center justify-center pt-10 md:pt-0 font-code">
         <AnimatedWords2
           title="ME MANDE UMA MENSAGEM"
           style={
@@ -25,7 +25,7 @@ export const Contact = () => {
           className="heartbeat left-32 w-[40%] md:w-[160px] lg:-bottom-16 lg:left-[42%] lg:w-[230px] mt-[-38px] pulseSoft 1.5s ease-in-out infinite"
         />
 
-        <div className="flex gap-6 text-[14px] font-medium font-mona  text-[#e4ded7] sm:gap-10 sm:text-[16px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+        <div className="flex gap-6 text-[14px] font-medium font-code  text-[#e4ded7] sm:gap-10 sm:text-[16px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
           <a
             href="mailto:yasantpro@gmail.com?subject=Vamos%20trabalhar%20juntos!&body=Olá,%20Yasmin!"
             target="_blank"

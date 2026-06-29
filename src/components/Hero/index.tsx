@@ -22,7 +22,7 @@ export const Hero = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-20 flex-1">
         <div className="flex flex-col justify-center items-center md:items-start text-center md:text-start">
-          <h1 className="text-whitetext font-black font-mona text-[80px] md:text-[80px] lg:text-[130px] leading-[0.9em] animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
+          <h1 className="text-whitetext font-black font-code text-[80px] md:text-[80px] lg:text-[130px] leading-[0.9em] animate-fade-right animate-duration-500 animate-delay-300 animate-ease-in">
             YASMIN SANTANA
           </h1>
 
@@ -44,7 +44,7 @@ export const Hero = () => {
             <TypingWords />
           </motion.div>
 
-          <p className="text-whitetext text-[12px] max-w-[70%] md:text-[16px] leading-5 md:leading-8 mt-6 md:mt-1 lg:w-[80%] font-inter w-[98%] animate-fade-left animate-duration-500 animate-delay-300 animate-ease-in font-extralight">
+          <p className="text-whitetext text-[12px] max-w-[70%] md:text-[16px] leading-5 md:leading-8 mt-6 md:mt-1 lg:w-[80%] font-code w-[98%] animate-fade-left animate-duration-500 animate-delay-300 animate-ease-in font-extralight">
             Full Stack Developer 👩🏻‍💻
             <br /> Apaixonada por criar produtos digitais de qualidade. 🚀
           </p>
